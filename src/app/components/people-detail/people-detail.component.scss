@@ -1,0 +1,34 @@
+.info-container {
+  width: 60%;
+  height: 65vh;
+  padding: 3rem;
+  border-radius: 20px;
+  margin: 0 auto;
+  box-shadow: 10px 20px 40px #00000086;
+  background-color: #000000;
+  overflow-y: scroll;
+  .arrow-back {
+    width: 2rem;
+    margin-bottom: 2rem;
+  }
+  .list-container {
+    padding-block: 0.5rem;
+
+    .btn-primary {
+      background-color: #ffe81f;
+      float: right;
+      color: #000000;
+      font-weight: bold;
+      border-color: transparent;
+    }
+    .property-text {
+      color: #ffe81f;
+      font-weight: bold;
+      font-family: "Silkscreen", cursive;
+    }
+    .people-text {
+      color: white;
+      font-family: "Silkscreen", cursive;
+    }
+  }
+}

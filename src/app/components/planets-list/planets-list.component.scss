@@ -1,0 +1,29 @@
+.info-container {
+  width: 60%;
+  height: 65vh;
+  padding: 3rem;
+  border-radius: 20px;
+  margin: 0 auto;
+  box-shadow: 10px 20px 40px #00000086;
+  background-color: #000000;
+  overflow-y: scroll;
+
+  .container {
+    font-family: "Silkscreen", cursive;
+    margin-top: 13rem;
+    h1 {
+      color: #ffe81f;
+      text-align: center;
+    }
+    h2 {
+      color: white;
+      text-align: center;
+    }
+    img {
+      padding-top: 4rem;
+      margin: 0 auto;
+      display: block;
+      width: 8rem;
+    }
+  }
+}

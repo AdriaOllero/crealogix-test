@@ -1,0 +1,19 @@
+<div class="info-container">
+
+  <div class="list-container" *ngFor="let person of people; let i = index">
+    <div class="row">
+      <div class="col-6">
+        <h3 class="property-text">Name:</h3>
+        <h3 class="people-text">{{ person.name }}</h3>
+      </div>
+      <div class="col-6 position-right">
+        <button
+          routerLink="/people-detail/{{ [i + 1] }}"
+          class="btn btn-primary"
+        >
+          More Details
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
